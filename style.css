@@ -68,7 +68,11 @@ li {
 }
 
 .heroButton {
-    flex-grow: 0;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
 
 .heroImage {
