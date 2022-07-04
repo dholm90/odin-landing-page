@@ -7,16 +7,23 @@ body {
 
 }
 
+
+/* ---------------Header--------------- */
+
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 10px 36px;
+}
 
+.headerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -25,6 +32,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 60px;
 
 }
 
@@ -42,17 +50,18 @@ li {
 .hero {
     display: flex;
     justify-content: center;
-    padding: 90px;
-    gap: 90px;
+    gap: 60px;
+    padding-bottom: 100px;
+
 }
 
 .heroContent {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    flex-basis: 400px;
+
     justify-content: center;
     text-align: left;
+    gap: 16px;
 
 }
 
@@ -68,17 +77,162 @@ li {
 }
 
 .heroButton {
-    background: royalblue;
+    font-size: 18px;
+    font-weight: 800;
+    display: inline-flex;
+    background: #3882f6;
+    width: auto;
     border: 1px solid royalblue;
     color: white;
-    padding: 8px 16px;
+    padding: 8px 24px;
     border-radius: 8px;
 }
 
 .heroImage {
-    height: 350px;
+    height: 250px;
     width: 600px;
     background-color: grey;
     flex-shrink: 0;
+
+}
+
+/* ---------------Info--------------- */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+
+.infoTitle {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 960px;
+    gap: 16px;
+}
+
+.infoItem {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.infoImage {
+    border: #3882f6 1px solid;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.infoText {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* ---------------Quote--------------- */
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+
+}
+
+.quoteContainer {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: space-around;
+}
+
+.quoteText {
+
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quoteAuthor {
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: auto;
+
+}
+
+/* ---------------CTA--------------- */
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.ctaContainer {
+    width: 1200px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-radius: 5px;
+
+}
+
+.ctaLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ctaTitle {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+
+.ctaButton {
+    background-color: #3882f6;
+    border: #F9FAF8 2px solid;
+    border-radius: 5px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 8px 36px;
+}
+
+/* ---------------Footer--------------- */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top: 36px;
+    padding-bottom: 36px;
 
 }
